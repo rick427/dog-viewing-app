@@ -1,0 +1,17 @@
+.details{
+    max-width: 85%;
+}
+
+.details-card{
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.details-card img{
+    filter: grayscale();
+    transition: 0.4s filter ease;
+    cursor: pointer;
+}
+
+.details-card:hover img{
+    filter: none;
+}
